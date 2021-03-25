@@ -4,6 +4,7 @@
       {
         "files": [
           "articles/**.md",
+          "articles/images/**.png"
           "articles/**/toc.yml",
           "toc.yml",
           "*.md"
