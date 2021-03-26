@@ -31,7 +31,7 @@
     "cleanupCacheHistory": false,
     "disableGitFeatures": false,
     "globalMetadata": {
-      "_enableSearch": "true"
+      "_enableSearch": true
     }
   }
 }

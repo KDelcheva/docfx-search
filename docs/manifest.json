@@ -28,6 +28,83 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "articles/images/add-member-icon-chat.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/add-member-icon-chat.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/chat-icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/chat-icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/dock-undock-icon-chat.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/dock-undock-icon-chat.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/external-user-chat.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/external-user-chat.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/group-chat-manage-members.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/group-chat-manage-members.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/rename-group-chat.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/rename-group-chat.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/start-chat.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/start-chat.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/intro.md",
       "output": {
@@ -103,6 +180,13 @@
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
